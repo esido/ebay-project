@@ -1,0 +1,38 @@
+.collection {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.collection__wrapper {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  gap: 20px;
+
+  .item {
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      border: 1px solid rgb(25, 25, 25);
+      border-radius: 20px;
+      padding: 10px;
+    }
+
+    strong {
+      display: block;
+      margin-top: 16px;
+      color: rgb(25, 25, 25);
+      font-style: italic;
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 19px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    height: 0;
+  }
+}

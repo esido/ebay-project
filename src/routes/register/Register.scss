@@ -1,0 +1,138 @@
+.auth__wrapper {
+  padding: 20px 50px;
+
+  .auth__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0%;
+      text-align: left;
+
+      a {
+        text-decoration: underline;
+        color: rgb(6, 84, 186);
+      }
+    }
+  }
+
+  .auth__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    h1 {
+      color: rgb(25, 25, 25);
+      font-style: italic;
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 46px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+
+    form {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      .auth__register {
+        width: 300px;
+        padding: 15px;
+        margin: 0 auto;
+        border: 1px solid rgb(143, 143, 143);
+        border-radius: 8px;
+        background: rgb(247, 247, 247);
+        color: rgb(25, 25, 25);
+        outline: none;
+      }
+
+      .auth__input {
+        width: 330px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        padding: 3px 0;
+        background: rgb(247, 247, 247);
+        border: 1px solid rgb(143, 143, 143);
+
+        input {
+          width: 100%;
+          outline: none;
+          border: none;
+          padding: 10px;
+          background: rgb(247, 247, 247);
+        }
+
+        button {
+          background-color: transparent;
+          border: 0;
+          color: #000;
+          padding: 10px;
+          cursor: pointer;
+        }
+      }
+
+      p {
+        width: 300px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+
+        span {
+          text-decoration: underline;
+          color: rgb(6, 84, 186);
+        }
+      }
+
+      button {
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 24px;
+        padding: 15px 0;
+        background: rgb(6, 84, 186);
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.auth__privacy {
+  margin-top: 100px;
+  border-top: 1px solid rgba($color: #000000, $alpha: 0.2);
+
+  p {
+    padding: 40px;
+    color: rgb(65, 65, 63);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: none;
+    span {
+      color: rgb(112, 112, 112);
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 13px;
+      letter-spacing: 0%;
+      text-align: center;
+      text-decoration-line: underline;
+    }
+  }
+}
